@@ -1,0 +1,570 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@keyframes ban1{
+    0%{
+        background-image: linear-gradient(307deg, rgb(201, 52, 206) 0%, rgb(97 252 116) 90%), url(#);
+
+    }
+    50%{
+        background-image: linear-gradient(307deg, rgb(25, 87, 102) 0%, rgb(97 252 116) 90%), url(#);
+
+    }
+    100%{
+        background-image: linear-gradient(307deg, rgb(5, 0, 67) 0%, rgb(97 252 116) 90%), url(#);
+
+    }
+}
+.banner6{
+    background-size: cover;
+    width: 100%;
+    height: 119vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+animation:  ban1 infinite 5s;
+    background-image: linear-gradient(307deg, rgb(5, 0, 67) 0%, rgb(97 252 116) 90%), url(#);
+}
+.con{
+    width: 100%;
+    height: 15vh;
+    background-image: linear-gradient(17deg, rgba(0, 0, 0, 0.5) 50%, rgb(4 15 35 / 50%) 40%), url(#);
+}
+.navbar1{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap
+
+}
+.navbar1 ul li{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin: 47px 111px;
+    
+}
+@keyframes ani {
+    0%{
+        background-color: rgb(102, 65, 204);
+    }
+    50%{
+        background-color: rgb(182, 156, 39);
+    }
+    100%{
+        background-color: rgb(71, 36, 165);
+    }
+}
+.navbar1 ul li::after{
+    width: 100%;
+    
+    height: 3px;
+    
+    content: '';
+    top: 94%;
+    left: 0%;
+    position: absolute;
+    transition: 0.3s;
+    background-color: #fff;
+    bottom: initial;
+animation: ani infinite 3s;
+}
+.navbar1 ul li:hover:after{
+    top: 150%;
+    background-color: blue;
+}@keyframes yt {
+    0%{
+        color: rgb(209, 14, 56);
+    }
+    50%{
+        color: rgb(219, 60, 60);
+    }
+    100%{
+        color: rgba(20, 104, 230, 0.445);
+    }
+}
+.tt{
+    animation: yt infinite 3s;
+}
+.navbar1 ul li a{
+    text-decoration: none;
+
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    text-shadow: 2px;
+    
+}
+.welcome{
+    font-size: 58px;
+    font-family: "Times New Roman";
+    position: relative;
+    top: 22%;
+    left: 9%;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+@keyframes sub{
+    0%{
+color: blanchedalmond;
+    }
+    50%{
+color: red;
+    }
+    100%{
+color: blue;
+    }
+}
+
+.sub{
+    animation: sub infinite 5s;
+}
+.img2{
+    position: relative;
+    
+    top: -2%;
+    left: 47%;
+}
+@keyframes boost{
+    0%{
+        color: rgb(195 178 178);
+    }
+    50%{
+        color: #e9dfdf;
+    }
+    100%{
+
+    }
+}
+.info22{
+    font-size: 22px;
+    font-family: Georgia;
+    position: relative;
+    top: -23%;
+    left: 9%;
+    color: #e9dfdf;
+    animation: boost infinite 5s;
+}
+.banner7{
+    width: 100%;
+    height: 100vh;
+
+}
+.box{
+    width: 24%;
+    height: 74%;
+    background-image: linear-gradient(307deg, rgb(139 121 67) 0%, rgb(151 159 152) 90%), url(#);
+    position: relative;
+    border-radius: 30px 4px;
+    top: 16%;
+    box-shadow: gray 3px 3px;
+    left: 5%;
+}
+.box2{
+    width: 24%;
+    height: 74%;
+    background-image: linear-gradient(307deg, rgb(99 67 139) 0%, rgb(47 33 45) 90%), url(#);
+    position: relative;
+    border-radius: 30px 4px;
+    top: -59%;
+    box-shadow: gray 3px 3px;
+    left: 38%;
+}
+.box3{
+    width: 24%;
+    height: 74%;
+    background-image: linear-gradient(307deg, rgb(139 67 67) 0%, rgb(137 101 48) 90%), url(#);
+    position: relative;
+    border-radius: 30px 4px;
+    top: -133%;
+    box-shadow: gray 3px 3px;
+    left: 70%;
+}
+.h11{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 7%;
+    left: 31%;
+    text-transform: capitalize;
+}
+.button1{
+    position: relative;
+    top: 27%;
+    border-radius: 30px 4px;
+    left: 25%;
+    height: 14%;
+    width: 49%;
+    background-color: orangered;
+    color: rgb(233, 223, 223);
+    text-transform: capitalize;
+    transition: .2s;
+    border: none;
+}
+.button1:hover{
+    background-color: #fff;
+    color: orangered;
+}
+.product_info1{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    top: 11%;
+    left: 3%;
+    text-transform: capitalize;
+}
+.banner5{
+    overflow: hidden;
+    width: 100%;
+    height: 60vh;
+    background-color: #3498db;
+  }
+  .log1{
+    position: relative;
+    width: 31%;
+    height: 49%;
+    border-radius: 30px 4px;
+    top: 14%;
+    background-repeat: no-repeat;
+    left: 8%;
+    background-image: url(ol.png);
+    background-size: cover;
+  }
+  .info3{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    top: 17%;
+    color: #ffe5e5;
+    left: 10%;
+  }
+  .support1{
+    font-size: 17px;
+      text-transform: capitalize;
+      font-family: "Times New Roman", Times, serif;
+      position: relative;
+      top: -53%;
+      color: rgb(255, 229, 229);
+      left: 70%;
+  }
+  .butt2{
+    position: relative;
+    top: -45%;
+    border-radius: 10px;
+    width: 16%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 14%;
+    left: 69%;
+    background-color: #8f4226;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    transition: .3s;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    @keyframes ban1{
+        0%{
+            background-image: linear-gradient(307deg, rgb(201, 52, 206) 0%, rgb(97 252 116) 90%), url(#);
+    
+        }
+        50%{
+            background-image: linear-gradient(307deg, rgb(25, 87, 102) 0%, rgb(97 252 116) 90%), url(#);
+    
+        }
+        100%{
+            background-image: linear-gradient(307deg, rgb(5, 0, 67) 0%, rgb(97 252 116) 90%), url(#);
+    
+        }
+    }
+    .banner6{
+        background-size: cover;
+        width: 100%;
+        height: 119vh;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    animation:  ban1 infinite 5s;
+        background-image: linear-gradient(307deg, rgb(5, 0, 67) 0%, rgb(97 252 116) 90%), url(#);
+    }
+    .con{
+        width: 100%;
+        height: 15vh;
+        background-image: linear-gradient(17deg, rgba(0, 0, 0, 0.5) 50%, rgb(4 15 35 / 50%) 40%), url(#);
+    }
+    .navbar1{
+        width: 100%;
+        display: flex;
+        list-style: none;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap
+    
+    }
+    .navbar1 ul li{
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+        position: relative;
+        margin: 41px 1px;
+        
+    }
+    @keyframes ani {
+        0%{
+            background-color: rgb(234, 232, 238);
+        }
+        50%{
+            background-color: rgb(255, 254, 249);
+        }
+        100%{
+            background-color: rgb(238, 238, 238);
+        }
+    }
+    .navbar1 ul li::after{
+        width: 100%;
+        
+        height: 3px;
+        
+        content: '';
+        top: 94%;
+        left: 0%;
+        position: absolute;
+        transition: 0.3s;
+        background-color: #fff;
+        bottom: initial;
+    animation: ani infinite 3s;
+    }
+    .navbar1 ul li:hover:after{
+        top: 150%;
+        background-color: blue;
+    }@keyframes yt {
+        0%{
+            color: rgb(209, 14, 56);
+        }
+        50%{
+            color: rgb(219, 60, 60);
+        }
+        100%{
+            color: rgba(20, 104, 230, 0.445);
+        }
+    }
+    .tt{
+        animation: yt infinite 3s;
+    }
+    .navbar1 ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        
+    }
+    .welcome{
+        font-size: 28px;
+        font-family: "Times New Roman";
+        position: relative;
+        top: 28%;
+        left: 9%;
+        text-transform: capitalize;
+        color: blueviolet;
+    }
+    @keyframes sub{
+        0%{
+    color: blanchedalmond;
+        }
+        50%{
+    color: red;
+        }
+        100%{
+    color: blue;
+        }
+    }
+    
+    .sub{
+        animation: sub infinite 5s;
+    }
+    .img2{
+        width: 80%;
+        height: 30%;
+        position: relative;
+        top: -6%;
+        left: 12%;
+    }
+    @keyframes boost{
+        0%{
+            color: rgb(195 178 178);
+        }
+        50%{
+            color: #e9dfdf;
+        }
+        100%{
+    
+        }
+    }
+    .info22{
+        font-size: 11px;
+        font-family: Georgia;
+        position: relative;
+        top: 1%;
+        left: 9%;
+        color: rgb(233, 223, 223);
+        animation: 5s ease 0s infinite normal none running boost;
+    }
+    .banner7{
+        width: 100%;
+        height: 300vh;
+    
+    }
+    .box{
+        width: 78%;
+        height: 23%;
+        background-image: linear-gradient(307deg, rgb(139, 121, 67) 0%, rgb(151, 159, 152) 90%), url(#);
+        position: relative;
+        border-radius: 30px 4px;
+        top: 6%;
+        box-shadow: gray 3px 3px;
+        left: 5%;
+    }
+    .box2{
+        width: 78%;
+        height: 23%;
+        background-image: linear-gradient(307deg, rgb(139, 121, 67) 0%, rgb(151, 159, 152) 90%), url(#);
+        position: relative;
+        border-radius: 30px 4px;
+        top: 10%;
+        box-shadow: gray 3px 3px;
+        left: 5%;
+    }
+    .box3{
+        width: 78%;
+        height: 23%;
+        background-image: linear-gradient(307deg, rgb(139, 121, 67) 0%, rgb(151, 159, 152) 90%), url(#);
+        position: relative;
+        border-radius: 30px 4px;
+        top: 14%;
+        box-shadow: gray 3px 3px;
+        left: 5%;
+    }
+    .h11{
+        font-size: 25px;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        top: 7%;
+        left: 31%;
+        text-transform: capitalize;
+    }
+    .button1{
+        position: relative;
+        top: 27%;
+        border-radius: 30px 4px;
+        left: 25%;
+        height: 14%;
+        width: 49%;
+        background-color: orangered;
+        color: rgb(233, 223, 223);
+        text-transform: capitalize;
+        transition: .2s;
+        border: none;
+    }
+    .button1:hover{
+        background-color: #fff;
+        color: orangered;
+    }
+    .product_info1{
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+        top: 11%;
+        left: 3%;
+        text-transform: capitalize;
+    }
+    .banner5{
+        overflow: hidden;
+        width: 100%;
+        height: 60vh;
+        background-color: #3498db;
+      }
+      .log1{
+        position: relative;
+        width: 50%;
+        height: 16%;
+        border-radius: 30px 4px;
+        top: 14%;
+        background-repeat: no-repeat;
+        left: 8%;
+        background-image: url(ol.png);
+        background-size: cover;
+      }
+      .info3{
+        font-size: 14px;
+        text-transform: capitalize;
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+        top: 17%;
+        color: #ffe5e5;
+        left: 10%;
+      }
+      .support1{
+        font-size: 17px;
+        text-transform: capitalize;
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+        top: 19%;
+        color: rgb(255, 229, 229);
+        left: 38%;
+      }
+      .butt2{
+        position: relative;
+        top: 22%;
+        border-radius: 10px;
+        width: 32%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        height: 11%;
+        left: 56%;
+        background-color: #8f4226;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        transition: .3s;
+      }
+      
+      
+    
+      
+    }
+    
+} 
